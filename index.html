@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inorganic Master | Element Hub 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <div class="crystal-bg"></div>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">💎 <span>InorganicMaster</span></div>
+            <ul class="nav-menu">
+                <li class="nav-item active" data-view="trends"><i>📈</i> Periodic Trends</li>
+                <li class="nav-item" data-view="coordination"><i>🕸️</i> Coordination IUPAC</li>
+                <li class="nav-item" data-view="colorlab"><i>🌈</i> The Color Lab</li>
+                <li class="nav-item" data-view="reasoning"><i>🧠</i> Reasoning Vault</li>
+                <li class="nav-item" data-view="reactions"><i>🔥</i> K2Cr2O7 / KMnO4</li>
+            </ul>
+            <div class="sidebar-footer" style="position: absolute; bottom: 2rem; width: 80%;">
+                <p style="font-size: 0.8rem; color: var(--text-muted); text-align: center;">For Ishika ❤️</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <h1>Inorganic <span style="color:var(--primary)">Crystal</span> Master</h1>
+                <p>Master d-Block & Coordination compounds with logical ease! 💎</p>
+            </header>
+
+            <!-- View 1: Periodic Trends -->
+            <section id="view-trends" class="app-view">
+                <div class="content-grid">
+                    <div class="info-card">
+                        <div class="card-title">Atomic & Ionic Size</div>
+                        <div class="trend-row">
+                            <span class="trend-label">Across 3d Series:</span>
+                            <span class="trend-value">Decreases (Z_eff \(\uparrow\))</span>
+                        </div>
+                        <div class="trend-row">
+                            <span class="trend-label">Exceptions:</span>
+                            <span class="trend-value">Cr to Cu (Almost Same)</span>
+                        </div>
+                        <div class="logic-box">
+                            <b>Lanthanoid Contraction:</b> Poor shielding of 4f electrons causes 4d and 5d series
+                            (Zr/Hf) to have similar sizes!
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-title">Oxidation States</div>
+                        <div class="trend-row"><span class="trend-label">Scandium:</span><span class="trend-value">+3
+                                (Only)</span></div>
+                        <div class="trend-row"><span class="trend-label">Manganese:</span><span class="trend-value">+2
+                                to +7 (Max)</span></div>
+                        <div class="trend-row"><span class="trend-label">Zinc:</span><span class="trend-value">+2
+                                (Only)</span></div>
+                        <div class="exam-tip">⭐ <b>High OS</b> is stabilized by <b>Oxygen</b> and <b>Fluorine</b> due to
+                            high electronegativity.</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- View 2: Coordination IUPAC -->
+            <section id="view-coordination" class="app-view" style="display:none">
+                <div class="content-grid">
+                    <div class="info-card" style="grid-column: span 2;">
+                        <div class="card-title">Naming Rule Masterclass</div>
+                        <ol style="padding: 1rem; line-height: 1.8;">
+                            <li><b>Cation First:</b> Name the cation before the anion.</li>
+                            <li><b>Ligands (Alpha):</b> List ligands in alphabetical order.</li>
+                            <li><b>Negative Ligands:</b> End in '-o' (e.g., Cl is Chlorido, CN is Cyanido).</li>
+                            <li><b>Metal Name:</b> If complex is negative, add <b>-ate</b> to metal (Ferrate,
+                                Argentate).</li>
+                        </ol>
+                        <div class="formula-display">
+                            Example: [Co(NH3)4Cl2]Cl <br>
+                            <b>Name:</b> Tetraamminedichloridocobalt(III) chloride
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- View 3: Color Lab -->
+            <section id="view-colorlab" class="app-view" style="display:none">
+                <div class="content-grid">
+                    <div class="info-card">
+                        <div class="card-title">Common Ion Colors</div>
+                        <div class="trend-row"><span class="trend-label">Cu(2+)</span><span class="trend-value"
+                                style="color:#60a5fa">Blue</span></div>
+                        <div class="trend-row"><span class="trend-label">Ni(2+)</span><span class="trend-value"
+                                style="color:#4ade80">Green</span></div>
+                        <div class="trend-row"><span class="trend-label">Mn(2+)</span><span class="trend-value"
+                                style="color:#fda4af">Pink (Pale)</span></div>
+                        <div class="trend-row"><span class="trend-label">Fe(2+)</span><span class="trend-value"
+                                style="color:#86efac">Light Green</span></div>
+                        <div class="logic-box">
+                            <b>Why Color?</b> d-d transitions! When light hits, an electron jumps from \(t_{2g}\) to
+                            \(e_g\) level.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- View 4: Reasoning Vault -->
+            <section id="view-reasoning" class="app-view" style="display:none">
+                <div class="content-grid">
+                    <div class="info-card">
+                        <div class="card-title">The "Why" Vault</div>
+                        <div class="step-item">
+                            <b>Q: Why Transition Metals are good Catalyst?</b> <br>
+                            <b>A:</b> Multiple oxidation states & large surface area.
+                        </div>
+                        <div class="step-item" style="margin-top:1rem;">
+                            <b>Q: Why Interstitial Compounds?</b> <br>
+                            <b>A:</b> Small atoms (H, C, N) fit into the gaps of crystal lattice.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- View 5: Preparation Reactions -->
+            <section id="view-reactions" class="app-view" style="display:none">
+                <div class="content-grid">
+                    <div class="info-card">
+                        <div class="card-title">KMnO4 Preparation</div>
+                        <p style="font-size:0.9rem;">Pyrolusite Ore (\(MnO_2\)) \(\xrightarrow{KOH, O_2}\) \(K_2MnO_4\)
+                            (Green)</p>
+                        <span style="display:block; text-align:center; padding:5px;">↓</span>
+                        <p style="font-size:0.9rem;">\(K_2MnO_4\) \(\xrightarrow{H^+ / Electrolytic}\) \(KMnO_4\) (Deep
+                            Purple)</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
